@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.vansh.drinksafe.SplashScreen">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            android:weightSum="1">
+            android:id="@+id/fullscreen_content_controls"
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_margin="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon1"
+                android:id="@+id/imageView"
+                android:layout_weight="0.10" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
